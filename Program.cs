@@ -1,4 +1,12 @@
-static void Main()
+﻿using System;
+
+namespace GradeBook
 {
-    System.Console.WriteLine("Master");
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Hello World!");
+        }
+    }
 }
