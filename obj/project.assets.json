@@ -692,11 +692,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\JANO\\Source\\repos\\GradeBook\\GradeBook\\GradeBook.csproj",
+      "projectUniqueName": "C:\\Users\\JANO\\source\\repos\\GradeBook\\GradeBook.csproj",
       "projectName": "GradeBook",
-      "projectPath": "C:\\Users\\JANO\\Source\\repos\\GradeBook\\GradeBook\\GradeBook.csproj",
+      "projectPath": "C:\\Users\\JANO\\source\\repos\\GradeBook\\GradeBook.csproj",
       "packagesPath": "C:\\Users\\JANO\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\JANO\\Source\\repos\\GradeBook\\GradeBook\\obj\\",
+      "outputPath": "C:\\Users\\JANO\\source\\repos\\GradeBook\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
