@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\JANO\\source\\repos\\GradeBook\\GradeBook.csproj": {}
+    "C:\\Users\\JANO\\source\\repos\\GradeBook\\test\\GradeBook.Test\\GradeBook.Test.csproj": {}
   },
   "projects": {
-    "C:\\Users\\JANO\\source\\repos\\GradeBook\\GradeBook.csproj": {
+    "C:\\Users\\JANO\\source\\repos\\GradeBook\\test\\GradeBook.Test\\GradeBook.Test.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\JANO\\source\\repos\\GradeBook\\GradeBook.csproj",
-        "projectName": "GradeBook",
-        "projectPath": "C:\\Users\\JANO\\source\\repos\\GradeBook\\GradeBook.csproj",
+        "projectUniqueName": "C:\\Users\\JANO\\source\\repos\\GradeBook\\test\\GradeBook.Test\\GradeBook.Test.csproj",
+        "projectName": "GradeBook.Test",
+        "projectPath": "C:\\Users\\JANO\\source\\repos\\GradeBook\\test\\GradeBook.Test\\GradeBook.Test.csproj",
         "packagesPath": "C:\\Users\\JANO\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\JANO\\source\\repos\\GradeBook\\obj\\",
+        "outputPath": "C:\\Users\\JANO\\source\\repos\\GradeBook\\test\\GradeBook.Test\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -41,6 +41,10 @@
       "frameworks": {
         "netcoreapp2.2": {
           "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.0.1, )"
+            },
             "Microsoft.NETCore.App": {
               "suppressParent": "All",
               "target": "Package",
@@ -50,6 +54,10 @@
             "xunit": {
               "target": "Package",
               "version": "[2.4.1, )"
+            },
+            "xunit.runner.visualstudio": {
+              "target": "Package",
+              "version": "[2.4.0, )"
             }
           },
           "imports": [
