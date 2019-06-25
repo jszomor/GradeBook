@@ -9,3 +9,14 @@ C:\Users\jszomor\source\repos\GradeBook\GradeBook\obj\Debug\netcoreapp2.2\GradeB
 C:\Users\jszomor\source\repos\GradeBook\GradeBook\obj\Debug\netcoreapp2.2\GradeBook.AssemblyInfo.cs
 C:\Users\jszomor\source\repos\GradeBook\GradeBook\obj\Debug\netcoreapp2.2\GradeBook.dll
 C:\Users\jszomor\source\repos\GradeBook\GradeBook\obj\Debug\netcoreapp2.2\GradeBook.pdb
+C:\Users\JANO\source\repos\GradeBook\GradeBook\bin\Debug\netcoreapp2.2\GradeBook.deps.json
+C:\Users\JANO\source\repos\GradeBook\GradeBook\bin\Debug\netcoreapp2.2\GradeBook.runtimeconfig.json
+C:\Users\JANO\source\repos\GradeBook\GradeBook\bin\Debug\netcoreapp2.2\GradeBook.runtimeconfig.dev.json
+C:\Users\JANO\source\repos\GradeBook\GradeBook\bin\Debug\netcoreapp2.2\GradeBook.dll
+C:\Users\JANO\source\repos\GradeBook\GradeBook\bin\Debug\netcoreapp2.2\GradeBook.pdb
+C:\Users\JANO\source\repos\GradeBook\GradeBook\obj\Debug\netcoreapp2.2\GradeBook.csprojAssemblyReference.cache
+C:\Users\JANO\source\repos\GradeBook\GradeBook\obj\Debug\netcoreapp2.2\GradeBook.csproj.CoreCompileInputs.cache
+C:\Users\JANO\source\repos\GradeBook\GradeBook\obj\Debug\netcoreapp2.2\GradeBook.AssemblyInfoInputs.cache
+C:\Users\JANO\source\repos\GradeBook\GradeBook\obj\Debug\netcoreapp2.2\GradeBook.AssemblyInfo.cs
+C:\Users\JANO\source\repos\GradeBook\GradeBook\obj\Debug\netcoreapp2.2\GradeBook.dll
+C:\Users\JANO\source\repos\GradeBook\GradeBook\obj\Debug\netcoreapp2.2\GradeBook.pdb

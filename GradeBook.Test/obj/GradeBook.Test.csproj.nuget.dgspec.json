@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jszomor\\source\\repos\\GradeBook\\GradeBook.Test\\GradeBook.Test.csproj": {}
+    "C:\\Users\\JANO\\source\\repos\\GradeBook\\GradeBook.Test\\GradeBook.Test.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jszomor\\source\\repos\\GradeBook\\GradeBook.Test\\GradeBook.Test.csproj": {
+    "C:\\Users\\JANO\\source\\repos\\GradeBook\\GradeBook.Test\\GradeBook.Test.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jszomor\\source\\repos\\GradeBook\\GradeBook.Test\\GradeBook.Test.csproj",
+        "projectUniqueName": "C:\\Users\\JANO\\source\\repos\\GradeBook\\GradeBook.Test\\GradeBook.Test.csproj",
         "projectName": "GradeBook.Test",
-        "projectPath": "C:\\Users\\jszomor\\source\\repos\\GradeBook\\GradeBook.Test\\GradeBook.Test.csproj",
-        "packagesPath": "C:\\Users\\jszomor\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jszomor\\source\\repos\\GradeBook\\GradeBook.Test\\obj\\",
+        "projectPath": "C:\\Users\\JANO\\source\\repos\\GradeBook\\GradeBook.Test\\GradeBook.Test.csproj",
+        "packagesPath": "C:\\Users\\JANO\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\JANO\\source\\repos\\GradeBook\\GradeBook.Test\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\jszomor\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\JANO\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -25,15 +25,13 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "http://buildserver.organicawater.com/guestAuth/app/nuget/v1/FeedService.svc": {},
-          "http://nuget-feed.organicaaws.priv/nuget": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp2.2": {
             "projectReferences": {
-              "C:\\Users\\jszomor\\source\\repos\\GradeBook\\GradeBook\\GradeBook.csproj": {
-                "projectPath": "C:\\Users\\jszomor\\source\\repos\\GradeBook\\GradeBook\\GradeBook.csproj"
+              "C:\\Users\\JANO\\source\\repos\\GradeBook\\GradeBook\\GradeBook.csproj": {
+                "projectPath": "C:\\Users\\JANO\\source\\repos\\GradeBook\\GradeBook\\GradeBook.csproj"
               }
             }
           }
@@ -74,20 +72,20 @@
         }
       }
     },
-    "C:\\Users\\jszomor\\source\\repos\\GradeBook\\GradeBook\\GradeBook.csproj": {
+    "C:\\Users\\JANO\\source\\repos\\GradeBook\\GradeBook\\GradeBook.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jszomor\\source\\repos\\GradeBook\\GradeBook\\GradeBook.csproj",
+        "projectUniqueName": "C:\\Users\\JANO\\source\\repos\\GradeBook\\GradeBook\\GradeBook.csproj",
         "projectName": "GradeBook",
-        "projectPath": "C:\\Users\\jszomor\\source\\repos\\GradeBook\\GradeBook\\GradeBook.csproj",
-        "packagesPath": "C:\\Users\\jszomor\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jszomor\\source\\repos\\GradeBook\\GradeBook\\obj\\",
+        "projectPath": "C:\\Users\\JANO\\source\\repos\\GradeBook\\GradeBook\\GradeBook.csproj",
+        "packagesPath": "C:\\Users\\JANO\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\JANO\\source\\repos\\GradeBook\\GradeBook\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\jszomor\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\JANO\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -95,8 +93,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "http://buildserver.organicawater.com/guestAuth/app/nuget/v1/FeedService.svc": {},
-          "http://nuget-feed.organicaaws.priv/nuget": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {

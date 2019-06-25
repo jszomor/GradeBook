@@ -1,8 +1,8 @@
 {
   "runtimeOptions": {
     "additionalProbingPaths": [
-      "C:\\Users\\jszomor\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\jszomor\\.nuget\\packages",
+      "C:\\Users\\JANO\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\JANO\\.nuget\\packages",
       "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
     ]
   }
