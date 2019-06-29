@@ -17,6 +17,9 @@ namespace GradeBook
 			Console.WriteLine($"The highest grade: {stat.High}");
 			Console.WriteLine($"The lowest grade: {stat.Low}");
 			// Console.WriteLine($"Number of AddGrade: {book.grades.Count}");
+
+			book.GetBookSetName(book,"New Name");
+		
 					
 		}
 	}

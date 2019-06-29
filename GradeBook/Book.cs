@@ -9,11 +9,13 @@ namespace GradeBook
         {
             grades = new List<double>();
             Name = name;
-        }
+        }        
+        private List<double> grades;
+        public string Name;
         public void AddGrade(double grade)
         {
             grades.Add(grade);
-        }
+        }        
         public Statistics GetStatistics()
         {
             var result = new Statistics();            
@@ -30,8 +32,12 @@ namespace GradeBook
 
             return result;      
         }
-        private List<double> grades;
-        public string Name;
+        public Book GetBookSetName(Book book, string name)
+        {
+            book = new Book(name);
+
+            return book;        
+        }
     }
 
 }
