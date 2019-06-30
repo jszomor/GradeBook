@@ -35,6 +35,7 @@ namespace GradeBook
         public Book GetBookSetName(Book book, string name)
         {
             book = new Book(name);
+            Console.WriteLine(book.Name);
 
             return book;        
         }

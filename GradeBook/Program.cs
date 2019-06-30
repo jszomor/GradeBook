@@ -19,6 +19,7 @@ namespace GradeBook
 			// Console.WriteLine($"Number of AddGrade: {book.grades.Count}");
 
 			book.GetBookSetName(book,"New Name");
+			System.Console.WriteLine(book.Name);
 		
 					
 		}
