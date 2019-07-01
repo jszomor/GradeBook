@@ -37,32 +37,32 @@ namespace GradeBook.Tests
             return 3;
         }
 
-        [Fact]      
-        public void CsharpCanPassByRef()
-        {
-            var book1 = GetBook("Book 1");      
-            GetBookSetNameRef(out book1,"New Name");
+        // [Fact]      
+        // public void CsharpCanPassByRef()
+        // {
+        //     var book1 = GetBook("Book 1");      
+        //     GetBookSetNameRef(out book1,"New Name");
             
-            Assert.Equal("New Name", book1.Name); 
+        //     Assert.Equal("New Name", book1.Name); 
                       
-        }
-        public void GetBookSetNameRef(out Book book, string name)
-        {
-            book = new Book(name);          
-        }
-         [Fact]      
-        public void CsharpIsPassByValue()
-        {
-            var book1 = GetBook("Book 1");      
-            GetBookSetName(book1,"New Name");
+        // }
+        // public void GetBookSetNameRef(out Book book, string name)
+        // {
+        //     book = new Book(name);          
+        // }
+        //  [Fact]      
+        // public void CsharpIsPassByValue()
+        // {
+        //     var book1 = GetBook("Book 1");      
+        //     GetBookSetName(book1,"New Name");
             
-            Assert.Equal("Book 1", book1.Name); 
+        //     Assert.Equal("Book 1", book1.Name); 
                       
-        }
-        public void GetBookSetName(Book book, string name)
-        {
-            book = new Book(name);          
-        }
+        // }
+        // public void GetBookSetName(Book book, string name)
+        // {
+        //     book = new Book(name);          
+        // }
 
          [Fact]      
         public void CanSetNameFromReference()
