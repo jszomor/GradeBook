@@ -6,7 +6,7 @@ namespace GradeBook
 	class Program
 	{
 		static void Main(string[] args)
-		{	
+		{			
 			var book = new Book("Jano's Grade Book");		
 
 			while(true)
@@ -33,12 +33,14 @@ namespace GradeBook
 				finally
 				{
 					Console.WriteLine("Finally");
-				}
-			
-			
+				}	
 			}
 
 			var stat = book.GetStatistics();
+			// book.Name = "";
+			
+			Console.WriteLine(Book.CATEGORY);
+			Console.WriteLine($"For the book named {book.Name}");
 			Console.WriteLine($"The average grade is: {stat.Average:N1}");
 			Console.WriteLine($"The highest grade: {stat.High}");
 			Console.WriteLine($"The lowest grade: {stat.Low}");
@@ -46,9 +48,7 @@ namespace GradeBook
 			// Console.WriteLine($"Number of AddGrade: {book.grades.Count}");
 
 			book.GetBookSetName(book,"New Name");
-			System.Console.WriteLine(book.Name);
-		
-					
+			System.Console.WriteLine(book.Name);					
 		}
 	}
 }
