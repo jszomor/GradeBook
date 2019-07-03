@@ -3,10 +3,41 @@ using System.Collections.Generic;
 
 namespace GradeBook
 {
-    public class Book
+    public delegate void GradeAddedDelegate (object sender, EventArgs args);
+    public class NamedObject
     {
-        public delegate void GradeAddedDelegate (object sender, EventArgs args);
-        public Book(string name)
+        public NamedObject(string name)
+        {
+            Name = name;
+        }
+        public string Name
+        {
+            get;
+            set;
+        }
+    }
+    public interface IBook
+    {
+        void AddGrade(double grade);
+        Statistics GetStatistics();
+        string Name{get;}
+        event GradeAddedDelegate GradeAdded;
+    }
+    public abstract class Book : NamedObject, IBook
+    {
+        public Book(string name) : base(name)
+        {            
+        }
+        public virtual event GradeAddedDelegate GradeAdded;
+        public virtual Statistics GetStatistics()
+        {
+            throw new NotImplementedException();
+        }
+        public abstract void AddGrade(double grade);        
+    }
+    public class InMemoryBook : Book
+    {        
+        public InMemoryBook(string name) : base(name)
         {
             grades = new List<double>();
             Name = name;            
@@ -30,7 +61,7 @@ namespace GradeBook
                     break;
             }
         }
-        public void AddGrade(double grade)
+        public override void AddGrade(double grade)
         {
             if(grade <= 100 && grade >= 0)
             {
@@ -45,8 +76,8 @@ namespace GradeBook
                 throw new ArgumentException ($"Invalid {nameof(grade)}");
             }            
         }
-        public event GradeAddedDelegate GradeAdded;
-        public Statistics GetStatistics()
+        public override event GradeAddedDelegate GradeAdded;
+        public override Statistics GetStatistics()
         {
             var result = new Statistics();            
 			result.Average = 0.0;
@@ -87,17 +118,12 @@ namespace GradeBook
 
             return result;      
         }
-        public Book GetBookSetName(Book book, string name)
+        public InMemoryBook GetBookSetName(InMemoryBook book, string name)
         {
-            book = new Book(name);
+            book = new InMemoryBook(name);
             Console.WriteLine(book.Name);
 
             return book;        
-        }
-        public string Name
-        {
-            get; 
-            set;           
         }
         public const string CATEGORY = "Science";
        
