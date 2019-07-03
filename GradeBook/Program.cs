@@ -7,7 +7,12 @@ namespace GradeBook
 	{
 		static void Main(string[] args)
 		{			
-			var book = new Book("Jano's Grade Book");		
+			var book = new Book("Jano's Grade Book");
+			book.GradeAdded += OnGradeAdded;
+			book.GradeAdded += OnGradeAdded;
+			book.GradeAdded -= OnGradeAdded;
+			book.GradeAdded += OnGradeAdded;
+			// OnGradeAdded added 2 times
 
 			while(true)
 			{
@@ -48,7 +53,11 @@ namespace GradeBook
 			// Console.WriteLine($"Number of AddGrade: {book.grades.Count}");
 
 			book.GetBookSetName(book,"New Name");
-			System.Console.WriteLine(book.Name);					
+			System.Console.WriteLine(book.Name);
+		}		
+		static void OnGradeAdded(object sender, EventArgs e)
+		{
+			Console.WriteLine("The grade was added!");			
 		}
 	}
 }
